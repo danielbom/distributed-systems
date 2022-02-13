@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message curso {
+	int32 codigo = 1;
+	string nome = 2;
+}
