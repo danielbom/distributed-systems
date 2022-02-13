@@ -1,0 +1,18 @@
+{
+    "configurations": [
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - FrameInit",
+        "request": "launch",
+        "mainClass": "activity/main.FrameInit",
+        "projectName": "DS-Activity-4"
+      },
+      {
+        "type": "java",
+        "name": "CodeLens (Launch) - MainFrame",
+        "request": "launch",
+        "mainClass": "activity/view.MainFrame",
+        "projectName": "DS-Activity-4"
+      }
+    ]
+}

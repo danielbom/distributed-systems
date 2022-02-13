@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+HOST	../client.py	/^HOST = '127.0.0.1'     # Endereco IP do Servidor$/;"	kind:variable	line:4
+HOST	../server.py	/^HOST = '127.0.0.1'     # Endereco IP do Servidor$/;"	kind:variable	line:6
+PORT	../client.py	/^PORT = 5000            # Porta que o Servidor esta$/;"	kind:variable	line:5
+PORT	../server.py	/^PORT = 5000            # Porta que o Servidor esta$/;"	kind:variable	line:7
+Packet	../packet.py	/^class Packet(object):$/;"	kind:class	line:4
+URL	../crawler.py	/^URL = 'http:\/\/moodle.utfpr.edu.br\/'$/;"	kind:variable	line:16
+__init__	../packet.py	/^    def __init__($/;"	kind:member	line:9
+__str__	../packet.py	/^    def __str__(self):$/;"	kind:member	line:23
+basic_connection.py	../examples/basic_connection.py	1;"	kind:file	line:1
+c	../create_tables.py	/^c = conn.cursor()$/;"	kind:variable	line:11
+client.py	../client.py	1;"	kind:file	line:1
+cod_disciplinas	../create_tables.py	/^cod_disciplinas = []$/;"	kind:variable	line:58
+conn	../create_tables.py	/^conn = sqlite3.connect(":memory:")$/;"	kind:variable	line:9
+crawler.py	../crawler.py	1;"	kind:file	line:1
+create_connection	../examples/basic_connection.py	/^def create_connection(db_file):$/;"	kind:function	line:4
+create_connection	../examples/memory_connection.py	/^def create_connection():$/;"	kind:function	line:4
+create_tables.py	../create_tables.py	1;"	kind:file	line:1
+csv_file	../create_tables.py	/^    csv_file = csv.reader(file, delimiter=";")$/;"	kind:variable	line:63
+cursos	../create_tables.py	/^cursos = []$/;"	kind:variable	line:60
+cursos_ids	../create_tables.py	/^cursos_ids = {}$/;"	kind:variable	line:59
+data	../packet.py	/^data = p.getBytes()$/;"	kind:variable	line:46
+dest	../client.py	/^dest = (HOST, PORT)$/;"	kind:variable	line:9
+disciplinas	../create_tables.py	/^disciplinas = []$/;"	kind:variable	line:61
+driver	../crawler.py	/^driver = webdriver.Chrome(chrome_options=options)$/;"	kind:variable	line:14
+getBytes	../packet.py	/^    def getBytes(self):$/;"	kind:member	line:30
+get_disciplines	../crawler.py	/^def get_disciplines(driver):$/;"	kind:function	line:36
+id_curso	../create_tables.py	/^    id_curso = 1$/;"	kind:variable	line:64
+length	../packet.py	/^    def length(self):$/;"	kind:member	line:26
+login	../crawler.py	/^def login(driver):$/;"	kind:function	line:19
+memory_connection.py	../examples/memory_connection.py	1;"	kind:file	line:1
+msg	../client.py	/^    msg = input()$/;"	kind:variable	line:17
+msg	../client.py	/^msg = input()$/;"	kind:variable	line:14
+msg	../server.py	/^        msg = con.recv(1024)$/;"	kind:variable	line:21
+name_fakes	../name_fakes.py	/^name_fakes = [$/;"	kind:variable	line:1
+name_fakes.py	../name_fakes.py	1;"	kind:file	line:1
+options	../crawler.py	/^options = webdriver.ChromeOptions()$/;"	kind:variable	line:5
+p	../packet.py	/^p = Packet(1, 2, "alunos")$/;"	kind:variable	line:41
+packet.py	../packet.py	1;"	kind:file	line:1
+profile	../crawler.py	/^profile = {$/;"	kind:variable	line:6
+save	../crawler.py	/^def save(text: str):$/;"	kind:function	line:32
+server.py	../server.py	1;"	kind:file	line:1
+tcp	../client.py	/^tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM)$/;"	kind:variable	line:8
+tcp	../server.py	/^tcp = socket.socket(socket.AF_INET, socket.SOCK_STREAM)$/;"	kind:variable	line:10
